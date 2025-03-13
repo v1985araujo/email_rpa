@@ -65,10 +65,10 @@ if dt.hour >= 9 and dt.hour < 18:
         print('Enviando mensagens')
         for nome, email in resp.to_numpy():
             if nome == 'RH':
-                email = email.lower()
+                #email = email.lower()
             else:
                 nome.split()[0].capitalize()
-                email.lower()
+                #email.lower()
             
 
             #   Enviar as Mensagens
